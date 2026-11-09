@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "yozora",
+  "version": "${version}",
+  "name": "Yozora Client",
+  "description": "Strong FPS optimizations, full HUD suite, zoom, fullbright, click GUI.",
+  "authors": [
+    "Yozora Team"
+  ],
+  "license": "MIT",
+  "icon": "assets/yozora/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.yozora.YozoraClient"
+    ]
+  },
+  "mixins": [
+    "yozora.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "=1.21.11",
+    "java": ">=21"
+  }
+}

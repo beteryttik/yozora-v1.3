@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "ru.yozora.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "EntityRendererMixin",
+    "BlockEntityRenderDispatcherMixin",
+    "ParticleManagerMixin"
+  ]
+}
